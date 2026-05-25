@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 // Scrape Zefoy home page
 app.get('/api/scrape-home', async (req, res) => {
   try {
-    const response = await axios.get('https://zefoy.com', {
+    const response = await axios.get('https://twitter.com', {
       timeout: 15000,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
