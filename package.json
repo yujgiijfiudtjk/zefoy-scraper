@@ -1,0 +1,27 @@
+{
+  "name": "zefoy-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for zefoy.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "web-scraper",
+    "zefoy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2",
+    "axios": "1.6.2",
+    "cheerio": "1.0.0-rc.12",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1"
+  },
+  "engines": {
+    "node": "18.19.0",
+    "npm": "9.6.7"
+  }
+}
